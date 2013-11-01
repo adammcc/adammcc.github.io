@@ -1,90 +1,57 @@
-
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Adam McCabe</title>
+  <link href="stylesheets/base.css" rel="stylesheet">
+  <link href="stylesheets/skeleton.css" rel="stylesheet">
+  <link href="stylesheets/layout.css" rel="stylesheet">
+  <link href="stylesheets/styles.css" rel="stylesheet" />
 
-	<head>
-		<link href="stylesheets/base.css" rel="stylesheet">
-		<link href="stylesheets/skeleton.css" rel="stylesheet">
-		<link href="stylesheets/layout.css" rel="stylesheet">
-		<link href="stylesheets/style.css" rel="stylesheet">
-
-		<title>About Me</title>
-	</head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
 
 <body>
-	<div class="container">
-	<header>
-		<!-- <div id='fixed_navbar'> -->
+  <script id="app-view-template" type="text/x-handlebars-template">
+    <h1>Adam J. McCabe</h1>
+    <div class='list'>
+      <ul id="features"></ul>
+      <div class='home-image-container'>
+        <div class='home-text'><p>Web Developer</p><p>Teacher</p><p>Dreamer</P></div>
+        <div class='home-image'><img src='images/windmill4.JPG'></div>
+      </div
+    </div>
+  </script>
 
-			<div class="seven columns offset-by-four name">
-				<h1>Adam J. McCabe</h1>
-			</div>
+  <script id="feature-list-view-template" type="text/x-handlebars-template">
+    {{title}}
+  </script>
+  
+  <script id="feature-view-template" type="text/x-handlebars-template">
+    <div class="feature sixteen columns">
+      <h1 class="title">{{title}}</h1>
+      <div class="content sixteen columns">{{{content}}}</div>
+    </div>
+  </script>
 
-			<div class="thirteen columns offset-by-three nav_right">
-					<ul>
-	      				<li><a href="#">Resume</a></li>
-	      				<li><a href="#why">Portfolio</a></li>
-	      				<li><a href="#contact">Contact</a></li>
-	    			</ul>
-			</div>
-		</header>
-	<!-- </div> -->
-	
 
-	<!-- <hr width="75%"> -->
+<div id="main" class="container"></div>
+  
 
-	<!-- <div class="container"> -->
-		<!-- <div id="box2" class="four columns offset-by-five">
-			<div class="left2">
-				<img src="img/adam Circle BW.png">
-			</div>
-	
-		</div> -->
-	<!-- <div>
-		<a id="why"><hr></a>
-	</div> -->
-		<div class="sixteen columns boxes">
-			<div class="box box1">
-				<img src="img/ep_logo_apple.jpg">
-			</div>
-			
-			<div class="box box4"></div>
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/underscore.js"></script>
+  <script src="javascripts/backbone.js"></script>
+  <script src="javascripts/handlebars.js"></script>
+ 
+ 
+  <script src="javascripts/backbone/models/Feature.js"></script>
+  <script src="javascripts/backbone/collections/FeatureList.js"></script>
+  <script src="javascripts/backbone/views/AppView.js"></script>
+  <script src="javascripts/backbone/views/FeatureListView.js"></script>
+  <script src="javascripts/backbone/views/FeatureView.js"></script>
+  <script src="javascripts/backbone/routers/Router.js"></script>
+  <script src="javascripts/backbone/app.js"></script>
 
-			<!-- <div>
-				<a id="freetime"><hr width="50%"></a>
-			</div> -->
 
-			<div class="box box2">
-				<img src="img/flossword_light.png">
-			</div>
-
-			<!-- <div>
-				<a id="contact"><hr width="50%"></a>
-			</div> -->
-
-			<div class="box box3">
-				<img src="img/teacher_and_students.png">
-			</div>
-		
-			<div class="box box5">
-				<img src="img/old-fashioned-phone2.jpg">
-			</div>
-			<div class="box box6"></div>
-			<div class="box box7"></div>
-			<div class="box box8"></div>
-			
-			<div class="box box9">
-				<img src="img/resume2.jpg">
-			</div>
-		</div>
-	</div>
 
 </body>
 </html>
-
-
-
-<!-- <h2>Contact</h2>
-<p>ajm845@gmail.com</p>
-<p>845.598.6900</p>
-<p>11-12 47th Ave. #2R, LIC, NY 11101</p> -->
