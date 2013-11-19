@@ -9,30 +9,31 @@ a, a:visited {
 	color: #4f4f4f;
 }
 
-#nav {
+#nav_bar {
 	position: relative;
 	color: #6b6b6b;
 	margin: 30px auto;
 	width: 950px;
 	height: 100px;
+	z-index: 6;
 }
 
-#nav a {
+#nav_bar a {
 	margin: 0px 100px 0px 100px;
 	font-size: 20px;
 }
 
-#nav a:hover {
+#nav_bar a:hover {
 	color: #cf8a05;
 }
 
-#nav h1 {
+#nav_bar h1 {
 	padding: 0px 0px 23px 0px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
-#nav h1 a{
+#nav_bar h1 a{
 	font: bold 40px 'Open Sans Condensed', sans-serif;
 	color: #6b6b6b;
 	width: 250px;
@@ -42,7 +43,7 @@ a, a:visited {
 	text-align: center;
 }*/
 
-#nav li {
+#nav_bar li {
 	display: inline;
 	margin: 40px auto;
 	margin-left: 30px;
