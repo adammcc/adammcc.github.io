@@ -33,10 +33,14 @@ a, a:visited {
 	text-transform: uppercase;
 }
 
-#nav_bar h1 a{
+#nav_bar span a{
 	font: bold 40px 'Open Sans Condensed', sans-serif;
 	color: #6b6b6b;
-	width: 250px;
+	width: 300px;
+	margin: 0px 0px 0px 50px;
+	text-align: center;
+	text-transform: uppercase;
+	/*border: 1px dashed;*/
 }
 
 /*.list {
@@ -61,12 +65,15 @@ a, a:visited {
 .home-image img {
 	margin-top: -100px;
 	width: 975px;
-	-webkit-filter: blur(5px) grayscale(0) hue-rotate(190deg);
+	-webkit-transition: all 1s ease;
+	-webkit-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
 }
 
 .home-image img:hover {
 	-webkit-transition: all 1s ease;
-  	-webkit-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
+	margin-top: -250px;
+	/*-webkit-filter: blur(5px) grayscale(0) hue-rotate(190deg);*/
+  	
 }
 
 /*#parallax-bg3 img {
@@ -124,14 +131,21 @@ a, a:visited {
 	color: #fff;
 }
 
+#name {
+	width: 300px;
+	right: ;
+	/*border: 1px dashed;*/
+}
+
 
 /******************************CONTACT******************************/
 /*******************************************************************/
 
 #contact {
-	width: 500px;
+	width: 590px;
 	height: 30px;
-	margin: 80px auto;
+	margin: 40px auto;
+	margin-bottom: 0px;
 	clear: both;
 	font-size: 30px;
 	/*border: 1px dashed;*/
@@ -139,7 +153,12 @@ a, a:visited {
 
 #info_left {
 	float: left;
-	margin-right: 177px;
+	margin-right: 100px;
+}
+
+#sun {
+	float: left;
+	margin-right: 100px;
 }
 
 #info_right {
@@ -193,7 +212,7 @@ a, a:visited {
 	background: url('../images/phone-256.png') no-repeat;
 	background-size:180px 180px;
 }
-.container {
+.icons {
 	width: 720px;
 	margin: 40px auto;
 	/*border: 1px dashed;*/
