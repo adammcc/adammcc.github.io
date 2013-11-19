@@ -81,7 +81,7 @@ a, a:visited {
 	font: bold 24px 'Open Sans Condensed', sans-serif;
 	font-size: 36px;
 	color: #6b6b6b;
-	padding: 0px 0px 20px;
+	padding: 0px 0px 20px 0px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -127,33 +127,75 @@ a, a:visited {
 /******************************CONTACT******************************/
 /*******************************************************************/
 
-.icons {
-	font-size:17px;
-	position: fixed;
-	top: 50%%;
-	left: 42%;
+#contact {
+	width: 500px;
+	height: 30px;
+	margin: 80px auto;
+	clear: both;
+	font-size: 30px;
 	/*border: 1px dashed;*/
 }
 
-.github {
+#info_left {
 	float: left;
-	height: 100px;
-	width: 100px;
-	background: url('../images/github-8-64.png') no-repeat;
+	margin-right: 177px;
 }
 
-.linkedin {
+#info_right {
 	float: left;
-	height: 100px;
-	width: 100px;
-	background: url('../images/linkedin-3-64.png') no-repeat;
 }
 
-.twitter {
+#github {
 	float: left;
-	height: 100px;
-	width: 100px;
-	background: url('../images/twitter-3-64.png') no-repeat;
+	height: 180px;
+	width: 180px;
+	background: url('../images/github-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#linkedin {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/linkedin-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#twitter {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/twitter-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#gmail {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/gmail-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#instagram {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/instagram-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#phone {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/phone-256.png') no-repeat;
+	background-size:180px 180px;
+}
+.container {
+	width: 720px;
+	margin: 40px auto;
+	/*border: 1px dashed;*/
 }
 
 
