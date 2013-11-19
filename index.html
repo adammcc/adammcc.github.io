@@ -8,48 +8,37 @@
   <link href="stylesheets/styles.css" rel="stylesheet" />
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
-  <script id="app-view-template" type="text/x-handlebars-template">
-    <h1>Adam J. McCabe</h1>
+    <div id="nav">
+      <h1><a href="index.html">Adam J. McCabe</a></h1>
+      <div class='home-links'>
+        <a href="resume.html">Resume</a>
+        <i class="fa fa-sun-o fa-spin"></i>
+        <a href="portfolio.html">Portfolio</a>
+        <i class="fa fa-sun-o fa-spin"></i>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
     <div class='list'>
-      <ul id="features"></ul>
       <div class='home-image-container'>
+<<<<<<< HEAD
         <div class='home-text'><p>Web Developer</p><p>Teacher</p><p>Student</P></div>
+=======
+        <div class='home-wind'>
+          <img src="images/less_wind.png">
+          <span>Hi, I'm Adam. </br> Math teacher turned web developer</span>
+        </div>
+>>>>>>> master
         <div class='home-image'><img src='images/windmill4.JPG'></div>
       </div
     </div>
-  </script>
-
-  <script id="feature-list-view-template" type="text/x-handlebars-template">
-    {{title}}
-  </script>
-  
-  <script id="feature-view-template" type="text/x-handlebars-template">
-    <div class="feature sixteen columns">
-      <h1 class="title">{{title}}</h1>
-      <div class="content sixteen columns">{{{content}}}</div>
-    </div>
-  </script>
-
-
-<div id="main" class="container"></div>
   
 
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/underscore.js"></script>
-  <script src="javascripts/backbone.js"></script>
-  <script src="javascripts/handlebars.js"></script>
- 
- 
-  <script src="javascripts/backbone/models/Feature.js"></script>
-  <script src="javascripts/backbone/collections/FeatureList.js"></script>
-  <script src="javascripts/backbone/views/AppView.js"></script>
-  <script src="javascripts/backbone/views/FeatureListView.js"></script>
-  <script src="javascripts/backbone/views/FeatureView.js"></script>
-  <script src="javascripts/backbone/routers/Router.js"></script>
-  <script src="javascripts/backbone/app.js"></script>
 
 
 
