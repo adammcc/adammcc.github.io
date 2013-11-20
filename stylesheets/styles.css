@@ -225,6 +225,10 @@ a, a:visited {
 	.home-image-container {width: 260px;}
 	.home-image img {margin-left: -150px}
 	.icons {width: 250px;}
+	#contact {margin-left: 53px; width: 300px; text-align: center;}
+	#sun {margin-left: -75px; width: 0px; opacity: 0;}
+	/*#info_left p: {padding-left: 100px;}*/
+	/*#info_right: {margin-left: -40px;}*/
 }
 
 
