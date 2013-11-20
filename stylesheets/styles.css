@@ -89,7 +89,7 @@ a, a:visited {
 	font: bold 24px 'Open Sans Condensed', sans-serif;
 	font-size: 36px;
 	color: #6b6b6b;
-	padding: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -113,6 +113,7 @@ a, a:visited {
 	color: #fff;
 	z-index: 99999;
 }
+
 .home-text p {
 	color: white;
 	font-size: 30px;
@@ -133,7 +134,7 @@ a, a:visited {
 
 #name {
 	width: 300px;
-	right: ;
+	margin-bottom: 20px;
 	/*border: 1px dashed;*/
 }
 
@@ -216,6 +217,14 @@ a, a:visited {
 	width: 720px;
 	margin: 40px auto;
 	/*border: 1px dashed;*/
+}
+
+@media only screen and (max-width: 767px) {
+  .home-wind span {top: 250px;}
+	.home-wind img {top: 370px;}
+	.home-image-container {width: 260px;}
+	.home-image img {margin-left: -150px}
+	.icons {width: 250px;}
 }
 
 
