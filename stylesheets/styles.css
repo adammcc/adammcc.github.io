@@ -223,10 +223,16 @@ a, a:visited {
 }
 
 @media only screen and (max-width: 767px) {
+<<<<<<< HEAD
   .home-wind span {top: 250px; left: 100px;}
 	.home-wind img {top: 375px; left: 74px;}
 	.home-links {clear: both;}
 	.home-image-container {width: 260px;}
+=======
+  .home-wind span {top: 250px;}
+	.home-wind img {top: 370px;}
+	.home-image-container {width: 310px;}
+>>>>>>> ghpages
 	.home-image img {margin-left: -150px}
 	.icons {width: 250px;}
 	#contact {margin-left: 53px; width: 300px; text-align: center;}
