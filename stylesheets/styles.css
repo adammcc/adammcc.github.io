@@ -16,6 +16,7 @@ a, a:visited {
 	width: 950px;
 	height: 100px;
 	z-index: 6;
+	/*border: 1px dashed;*/
 }
 
 #nav_bar a {
@@ -99,7 +100,7 @@ a, a:visited {
 	position: absolute;
 	width: 150px;
 	top: 387px;
-	right: 29%;
+	right: 366px;
 	z-index: 99999;
 }
 
@@ -109,7 +110,7 @@ a, a:visited {
 	position: absolute;
 	width: 175px;
 	top: 387px;
-	right: 15%;
+	right: 190px;
 	color: #fff;
 	z-index: 99999;
 }
@@ -133,9 +134,11 @@ a, a:visited {
 }
 
 #name {
-	width: 300px;
-	margin-bottom: 20px;
+	width: 290px;
 	/*border: 1px dashed;*/
+	position: relative;
+	left: 48%;
+	margin-left: -150px;
 }
 
 
@@ -220,18 +223,18 @@ a, a:visited {
 }
 
 @media only screen and (max-width: 767px) {
-  .home-wind span {top: 250px;}
-	.home-wind img {top: 370px;}
+  .home-wind span {top: 250px; left: 100px;}
+	.home-wind img {top: 375px; left: 74px;}
+	.home-links {padding-top: 45px;}
 	.home-image-container {width: 310px;}
 	.home-image img {margin-left: -150px}
 	.icons {width: 250px;}
 	#contact {margin-left: 53px; width: 300px; text-align: center;}
 	#sun {margin-left: -75px; width: 0px; opacity: 0;}
+	#name {top: 0px; left: -190px; position: absolute; margin-bottom: 10px}
 	/*#info_left p: {padding-left: 100px;}*/
 	/*#info_right: {margin-left: -40px;}*/
 }
-
-
 
 /******************************RESUME*******************************/
 /*******************************************************************/
@@ -293,7 +296,7 @@ p {
 	background: #e3e5e5;
 }
 
-#name h1 {
+/*#name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -306,14 +309,14 @@ p {
 	margin-left: 2px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #6b6b6b;
-}
+}*/
 
 #mainArea {
 	padding: 0 40px;
 	background-color: #e3e5e5;
 }
 
-#headshot {
+/*#headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
@@ -329,7 +332,7 @@ p {
 #name {
 	float: left;
 }
-
+*/
 #contactDetails {
 	float: right;
 }
