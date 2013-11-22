@@ -228,8 +228,8 @@ a, a:visited {
 	.home-links {padding-top: 45px; padding-left: 75px;}
 	.home-image-container {margin-left: 53px; width: 350px;}
 	.home-image img {margin-left: -150px;}
-	.icons {width: 250px;}
-	#contact {margin-left: 53px; width: 300px; text-align: center;}
+	.icons {margin-left: 130px; width: 250px;}
+	#contact {margin-left: 120px; width: 300px; text-align: center;}
 	#sun {margin-left: -75px; width: 0px; opacity: 0;}
 	#name {top: 0px; left: -125px; position: absolute; margin-bottom: 10px}
 	/*#info_left p: {padding-left: 100px;}*/
