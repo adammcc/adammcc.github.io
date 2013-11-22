@@ -223,15 +223,15 @@ a, a:visited {
 }
 
 @media only screen and (max-width: 767px) {
-  .home-wind span {top: 250px; left: 150px;}
-	.home-wind img {top: 375px; left: 130px;}
-	.home-links {padding-top: 45px; padding-left: 55px;}
-	.home-image-container {width: 350px;}
+  .home-wind span {top: 250px; left: 174px;}
+	.home-wind img {top: 375px; left: 150px;}
+	.home-links {padding-top: 45px; padding-left: 75px;}
+	.home-image-container {margin-left: 53px; width: 350px;}
 	.home-image img {margin-left: -150px;}
 	.icons {width: 250px;}
 	#contact {margin-left: 53px; width: 300px; text-align: center;}
 	#sun {margin-left: -75px; width: 0px; opacity: 0;}
-	#name {top: 0px; left: -140px; position: absolute; margin-bottom: 10px}
+	#name {top: 0px; left: -125px; position: absolute; margin-bottom: 10px}
 	/*#info_left p: {padding-left: 100px;}*/
 	/*#info_right: {margin-left: -40px;}*/
 }
