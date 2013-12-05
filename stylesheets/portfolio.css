@@ -91,17 +91,6 @@ p {
 	margin:1em 0;
 	}
 
-/* Common shared styles
-*****************************************************************/
-
-/*hr {
-	margin: 0;
-	border: none;
-	border-top: 1px solid #3b3b3b;
-	border-bottom: 1px solid #3b3b3b;
-	height: 3px;
-}*/
-
 /* Page structure
 *****************************************************************/
 
@@ -112,14 +101,14 @@ p {
 	width: 100%;
 	background: #fff;
 	}
-	#branding h1 {
-		width: 940px;
-		padding: 10px 15px;
-		margin: 0 auto;
-		text-transform: uppercase;
-		font-size: 18px;
-		font-weight: bold;
-		}
+#branding h1 {
+	width: 940px;
+	padding: 10px 15px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	}
 
 /* Nav
 *****************************************************************/
@@ -158,27 +147,26 @@ nav#primary h1 {
 nav.next-prev {
 	margin: 20px 0 0 0;
 	}
-	a.prev,
-	a.next {
-		display: block;
-		width: 15px;
-		height: 11px;
-		text-indent: -9999px;
-		}
-	a.prev {
-		margin: 0 auto 5px auto;
-		background: transparent url('../images/scroll-arrow-up.png') 0 0 no-repeat;
-		}
-		a.prev:hover {
-			background: transparent url('../images/scroll-arrow-up.png') 0 -11px no-repeat;
-			}
-	a.next {
-		margin: 5px auto 0 auto;
-		background: transparent url('../images/scroll-arrow-down.png') -1px 0 no-repeat;
-		}
-		a.next:hover {
-			background: transparent url('../images/scroll-arrow-down.png') -1px -11px no-repeat;
-			}
+a.prev, a.next {
+	display: block;
+	width: 15px;
+	height: 11px;
+	text-indent: -9999px;
+	}
+a.prev {
+	margin: 0 auto 5px auto;
+	background: transparent url('../images/scroll-arrow-up.png') 0 0 no-repeat;
+	}
+a.prev:hover {
+	background: transparent url('../images/scroll-arrow-up.png') 0 -11px no-repeat;
+	}
+a.next {
+	margin: 5px auto 0 auto;
+	background: transparent url('../images/scroll-arrow-down.png') -1px 0 no-repeat;
+	}
+a.next:hover {
+	background: transparent url('../images/scroll-arrow-down.png') -1px -11px no-repeat;
+	}
 
 /* Parallax
 *****************************************************************/
@@ -192,38 +180,39 @@ nav.next-prev {
 	margin: 0 auto;
 	line-height: 1.7;
 	}
-	#content article {
-		width: 300px;
-		}
-		#rynoq-chart,
-		#flosswords,
-		#crowded-lands,
-		#edpeople {
-			padding-top: 150px;
-			}
-		#rynoq-chart {
-			position: absolute;
-			top: -10px;
-			}
-		#flosswords {
-			position: absolute;
-			top: 1130px;
-			}
-		#crowded-lands {
-			position: absolute;
-			top: 2217px;
-			}
-			#content h1 {
-				margin: 0 0 25px 0;
-				font-size: 60px;
-				font-family: 'Open Sans Condensed', sans-serif; 
-				font-weight: normal;
-				line-height: 65px;
-				}
-		#edpeople {
-			position: absolute;
-			top: 3130px;
-			}
+#content article {
+	width: 300px;
+	}
+#content h1 {
+	margin: 0 0 25px 0;
+	font-size: 60px;
+	font-family: 'Open Sans Condensed', sans-serif; 
+	font-weight: normal;
+	line-height: 65px;
+}
+#rynoq-chart,
+#flosswords,
+#crowded-lands,
+#edpeople {
+	padding-top: 150px;
+	}
+#rynoq-chart {
+	position: absolute;
+	top: -27px;
+	}
+#flosswords {
+	position: absolute;
+	top: 1075px;
+	}
+#crowded-lands {
+	position: absolute;
+	top: 2205px;
+	}
+#edpeople {
+	position: absolute;
+	top: 3115px;
+	}
+
 /* foreground (ballons/landscape) */
 #parallax-bg3 {
 	z-index: 3;
@@ -233,28 +222,28 @@ nav.next-prev {
 	width: 940px;
 	margin-left: -470px; /* move left by half element's width */
 	}
-	/* balloon */
-	#bg3-1 {
-		position: absolute;
-		top: 245px;
-		left: 355px;
-		}
-	#bg3-2 {
-		position: absolute;
-		top: 790px;
-		left: 355px;
-		}
-	#bg3-3 {
-		position: absolute;
-		top: 1310px;
-		left: 355px;
-		}
-	#bg3-4 {
-		position: absolute;
-		top: 1835px;
-		left: 355px;
-		}
-/* midground (clouds) */
+	
+#bg3-1 {
+	position: absolute;
+	top: 245px;
+	left: 355px;
+}
+#bg3-2 {
+	position: absolute;
+	top: 790px;
+	left: 355px;
+}
+#bg3-3 {
+	position: absolute;
+	top: 1310px;
+	left: 355px;
+}
+#bg3-4 {
+	position: absolute;
+	top: 1860px;
+	left: 355px;
+}
+/* midground (images) */
 #parallax-bg2 {
 	z-index: 2;
 	position: fixed;
@@ -262,33 +251,33 @@ nav.next-prev {
 	top: 0;
 	width: 1200px;
 	margin-left: -600px; /* move left by half element's width */
-	}
-	#bg2-1 {
-		position: absolute;
-		top: 162px;
-		left: 200px;
-		}
-	#bg2-2 {
-		position: absolute;
-		top: 300px;
-		left: 1150px;
-		}
-	#bg2-3 {
-		position: absolute;
-		top: 543px;
-		left: -35px;
-		}
-	#bg2-4 {
-		position: absolute;
-		top: 1180px;
-		left: 250px;
-		}
-	#bg2-5 {
-		position: absolute;
-		top: 900px;
-		left: 890px;
-		}
-/* background (clouds) */
+}
+#bg2-1 {
+	position: absolute;
+	top: 162px;
+	left: 200px;
+}
+#bg2-2 {
+	position: absolute;
+	top: 300px;
+	left: 1150px;
+}
+#bg2-3 {
+	position: absolute;
+	top: 543px;
+	left: -35px;
+}
+#bg2-4 {
+	position: absolute;
+	top: 1180px;
+	left: 250px;
+}
+#bg2-5 {
+	position: absolute;
+	top: 900px;
+	left: 890px;
+}
+/* background (images) */
 #parallax-bg1 {
 	z-index: 1;
 	position: fixed;
@@ -296,25 +285,25 @@ nav.next-prev {
 	top: 0;
 	width: 1200px;
 	margin-left: -600px; /* move left by half element's width */
-	}
-	#bg1-1 {
-		position: absolute;
-		top: 85px;
-		left: -270px;
-		}
-	#bg1-2 {
-		position: absolute;
-		top: 440px;
-		left: 795px;
-		}
-	#bg1-3 {
-		position: absolute;
-		top: 900px;
-		left: -220px;
-		}
-	#bg1-4 {
-		position: absolute;
-		top: 1020px;
-		left: 450px;
-		}
+}
+#bg1-1 {
+	position: absolute;
+	top: 85px;
+	left: -270px;
+}
+#bg1-2 {
+	position: absolute;
+	top: 440px;
+	left: 795px;
+}
+#bg1-3 {
+	position: absolute;
+	top: 900px;
+	left: -220px;
+}
+#bg1-4 {
+	position: absolute;
+	top: 1020px;
+	left: 450px;
+}
 

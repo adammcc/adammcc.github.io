@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
     
 	/* Next/prev and primary nav btn click handlers */
-	$('a.manned-flight').click(function(){
+	$('a.rynoq-chart').click(function(){
     	$('html, body').animate({
     		scrollTop:0
     	}, 1000, function() {
@@ -17,25 +17,25 @@ $(document).ready(function() {
 		});
     	return false;
 	});
-    $('a.frameless-parachute').click(function(){
+    $('a.flosswords').click(function(){
     	$('html, body').animate({
-    		scrollTop:$('#frameless-parachute').offset().top
+    		scrollTop:$('#flosswords').offset().top
     	}, 1000, function() {
 	    	parallaxScroll(); // Callback is required for iOS
 		});
     	return false;
     });
-    $('a.english-channel').click(function(){
+    $('a.crowded-lands').click(function(){
     	$('html, body').animate({
-    		scrollTop:$('#english-channel').offset().top
+    		scrollTop:$('#crowded-lands').offset().top
     	}, 1000, function() {
 	    	parallaxScroll(); // Callback is required for iOS
 		});
     	return false;
     });
-	$('a.about').click(function(){
+	$('a.edpeople').click(function(){
     	$('html, body').animate({
-    		scrollTop:$('#about').offset().top
+    		scrollTop:$('#edpeople').offset().top
     	}, 1000, function() {
 	    	parallaxScroll(); // Callback is required for iOS
 		});
@@ -66,18 +66,18 @@ function parallaxScroll(){
 function redrawDotNav(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
-	var section2Top =  $('#frameless-parachute').offset().top - (($('#english-channel').offset().top - $('#frameless-parachute').offset().top) / 2);
-	var section3Top =  $('#english-channel').offset().top - (($('#about').offset().top - $('#english-channel').offset().top) / 2);
-	var section4Top =  $('#about').offset().top - (($(document).height() - $('#about').offset().top) / 2);;
+	var section2Top =  $('#flosswords').offset().top - (($('#crowded-lands').offset().top - $('#flosswords').offset().top) / 2);
+	var section3Top =  $('#crowded-lands').offset().top - (($('#edpeople').offset().top - $('#crowded-lands').offset().top) / 2);
+	var section4Top =  $('#edpeople').offset().top - (($(document).height() - $('#edpeople').offset().top) / 2);;
 	$('nav#primary a').removeClass('active');
 	if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
-		$('nav#primary a.manned-flight').addClass('active');
+		$('nav#primary a.rynoq-chart').addClass('active');
 	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
-		$('nav#primary a.frameless-parachute').addClass('active');
+		$('nav#primary a.flosswords').addClass('active');
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
-		$('nav#primary a.english-channel').addClass('active');
+		$('nav#primary a.crowded-lands').addClass('active');
 	} else if ($(document).scrollTop() >= section4Top){
-		$('nav#primary a.about').addClass('active');
+		$('nav#primary a.edpeople').addClass('active');
 	}
 	
 }
