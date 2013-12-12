@@ -256,7 +256,7 @@ display:block;
 }
 
 html, body {
-	background: #e3e5e5; 
+	background: #fff; 
 	font-family: 'Open Sans Condensed', sans-serif; 
 	font-size: 16px; 
 	color: #222;
@@ -280,12 +280,12 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	background: #e3e5e5;
+	background: #fff;
 }
 
 #mainArea {
 	padding: 0 40px;
-	background-color: #e3e5e5;
+	background-color: #fff;
 }
 
 #contactDetails {

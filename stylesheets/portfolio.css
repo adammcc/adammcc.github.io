@@ -59,7 +59,7 @@ html {
 	overflow-y: scroll; /* always force a scrollbar in non-IE */
 	}
 body {
-	background: #e3e5e5;
+	background: #fff;
 	overflow-x: hidden;
 	height: 3900px;
 	line-height: 1.5;
