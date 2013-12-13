@@ -93,7 +93,7 @@ a, a:visited {
 	position: absolute;
 	width: 150px;
 	top: 387px;
-	right: 366px;
+	left: 60%;
 	z-index: 99999;
 }
 
@@ -103,7 +103,7 @@ a, a:visited {
 	position: absolute;
 	width: 175px;
 	top: 387px;
-	right: 190px;
+	left: 72%;
 	color: #fff;
 	z-index: 99999;
 }
