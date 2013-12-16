@@ -167,6 +167,12 @@ a.next {
 a.next:hover {
 	background: transparent url('../images/scroll-arrow-down.png') -1px -11px no-repeat;
 	}
+	
+.rynoq-chart,
+.flosswords,
+.crowded-lands,
+.edpeople {
+}
 
 /* Parallax
 *****************************************************************/

@@ -75,9 +75,7 @@ a, a:visited {
 	filter: blur(0px) grayscale(.5) hue-rotate(190deg);
 }
 
-.home-image img:hover {
-	margin-top: -250px;
-}
+
 
 .home-links {
 	font: bold 24px 'Open Sans Condensed', sans-serif;
@@ -86,6 +84,11 @@ a, a:visited {
 	padding: 0px 0px 0px 0px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.home-image img:hover {
+	position: relative;
+	margin-top: -250px;
 }
 
 .home-wind img {
@@ -161,6 +164,8 @@ a, a:visited {
 }
 
 #github {
+	position: relative;
+	left: -20%;
 	float: left;
 	height: 180px;
 	width: 180px;
@@ -169,6 +174,8 @@ a, a:visited {
 }
 
 #linkedin {
+	position: relative;
+	left: -40%;
 	float: left;
 	height: 180px;
 	width: 180px;
@@ -177,6 +184,8 @@ a, a:visited {
 }
 
 #twitter {
+	position: relative;
+	left: -60%;
 	float: left;
 	height: 180px;
 	width: 180px;
@@ -184,15 +193,9 @@ a, a:visited {
 	background-size:180px 180px;
 }
 
-#gmail {
-	float: left;
-	height: 180px;
-	width: 180px;
-	background: url('../images/gmail-256.png') no-repeat;
-	background-size:180px 180px;
-}
-
 #instagram {
+	position: relative;
+	left: -80%;
 	float: left;
 	height: 180px;
 	width: 180px;
@@ -200,13 +203,6 @@ a, a:visited {
 	background-size:180px 180px;
 }
 
-#phone {
-	float: left;
-	height: 180px;
-	width: 180px;
-	background: url('../images/phone-256.png') no-repeat;
-	background-size:180px 180px;
-}
 .icons {
 	width: 720px;
 	margin: 40px auto;
