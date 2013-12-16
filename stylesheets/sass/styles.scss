@@ -1,0 +1,234 @@
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: #4f4f4f;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#nav_bar {
+	position: relative;
+	color: #6b6b6b;
+	margin: 30px auto;
+	width: 950px;
+	height: 100px;
+	z-index: 6;
+	a {
+		margin: 0px 100px 0px 100px;
+		font-size: 20px;
+	}
+	a:hover {
+		color: #cf8a05;
+	}
+	h1 {
+		padding: 0px 0px 23px 0px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	span a{
+		font: bold 40px 'Open Sans Condensed', sans-serif;
+		color: #6b6b6b;
+		width: 300px;
+		margin: 0px 0px 0px 50px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	li {
+		display: inline;
+		margin: 40px auto;
+		margin-left: 30px;
+		margin-right: 30px;
+		text-align: center;
+	}
+}
+
+.home-image-container {
+	margin: 10px auto;
+	width: 960px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.home-image img {
+	margin-top: -100px;
+	width: 975px;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+
+	/*-webkit-transition: all 1s ease;*/
+	/*-webkit-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
+	-moz-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
+	-ms-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
+	-o-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
+	filter: blur(0px) grayscale(.5) hue-rotate(190deg);*/
+}
+
+.home-links {
+	font: bold 24px 'Open Sans Condensed', sans-serif;
+	font-size: 36px;
+	color: #6b6b6b;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.home-image {
+	img:hover {
+		position: relative;
+		margin-top: -250px;
+	}
+}
+
+.home-wind {
+	img {
+		padding: 0px;
+		position: absolute;
+		width: 150px;
+		top: 387px;
+		left: 60%;
+		z-index: 99999;
+	}
+	span {
+		font: bold 24px 'Open Sans Condensed', sans-serif;
+		padding: 0px;
+		position: absolute;
+		width: 175px;
+		top: 387px;
+		left: 72%;
+		color: #fff;
+		z-index: 99999;
+	}
+}
+
+.home-text {
+	p {
+		color: white;
+		font-size: 30px;
+	}
+	p:hover {
+		color: #cf8a05;
+	}
+}
+
+.fa.fa-sun-o {
+	font-size: 15px
+}
+
+.fa.fa-cogs {
+	font-size: 200px;
+	color: #fff;
+}
+
+#name {
+	width: 290px;
+	position: relative;
+	left: 48%;
+	margin-left: -150px;
+}
+
+
+/******************************CONTACT******************************/
+/*******************************************************************/
+
+#contact {
+	width: 590px;
+	height: 30px;
+	margin: 40px auto;
+	margin-bottom: 0px;
+	clear: both;
+	font-size: 30px;
+}
+
+#info_left {
+	float: left;
+	margin-right: 100px;
+}
+
+#sun {
+	float: left;
+	margin-right: 100px;
+}
+
+#info_right {
+	float: left;
+}
+
+#github {
+	position: relative;
+	left: -20%;
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/github-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#linkedin {
+	position: relative;
+	left: -40%;
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/linkedin-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#twitter {
+	position: relative;
+	left: -60%;
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/twitter-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+#instagram {
+	position: relative;
+	left: -80%;
+	float: left;
+	height: 180px;
+	width: 180px;
+	background: url('../images/instagram-256.png') no-repeat;
+	background-size:180px 180px;
+}
+
+.icons {
+	width: 720px;
+	margin: 40px auto;
+}
+
+html, body {
+	background: #fff; 
+	font-family: 'Open Sans Condensed', sans-serif; 
+	font-size: 16px; 
+	color: #222;
+}
+
+.clear {clear: both;}
+
+/*******************************MEDIA*******************************/
+/*******************************************************************/
+
+@media only screen and (max-width: 767px) {
+  .home-wind span {top: 250px; left: 174px;}
+	.home-wind img {top: 375px; left: 150px;}
+	.home-links {padding-top: 45px; padding-left: 75px;}
+	.home-image-container {margin-left: 53px; width: 350px;}
+	.home-image img {margin-left: -150px;}
+	.icons {margin-left: 130px; width: 250px;}
+	#contact {margin-left: 120px; width: 300px; text-align: center;}
+	#sun {margin-left: -75px; width: 0px; opacity: 0;}
+	#name {top: 0px; left: -125px; position: absolute; margin-bottom: 10px}
+}
+
