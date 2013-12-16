@@ -95,13 +95,6 @@ p {
 .home-text p:hover {
   color: #cf8a05; }
 
-.fa.fa-sun-o {
-  font-size: 15px; }
-
-.fa.fa-cogs {
-  font-size: 200px;
-  color: #fff; }
-
 #name {
   width: 290px;
   position: relative;
@@ -119,15 +112,13 @@ p {
   font-size: 30px; }
 
 #info_left {
-  float: left;
-  margin-right: 100px; }
-
-#sun {
-  float: left;
-  margin-right: 100px; }
+  /*float: left;*/
+  /*left: 35%;*/
+  /*margin-right: 200px;*/
+  text-align: center; }
 
 #info_right {
-  float: left; }
+  text-align: center; }
 
 #github {
   position: relative;
