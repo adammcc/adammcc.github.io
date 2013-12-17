@@ -2,13 +2,13 @@
 a {
   outline: none;
   text-decoration: none;
-  color: #4f4f4f; }
+  color: #6b6b6b; }
 
 p {
   font-size: 1em;
   line-height: 1.4em;
   margin-bottom: 20px;
-  color: #444; }
+  color: #6b6b6b; }
 
 #nav_bar {
   position: relative;
@@ -106,8 +106,15 @@ p {
 #name {
   width: 290px;
   position: relative;
-  left: 48%;
-  margin-left: -150px; }
+  top: 25px;
+  left: 35%;
+  margin-left: -150px;
+  font: bold 40px 'Open Sans Condensed', sans-serif;
+  color: #6b6b6b;
+  width: 300px;
+  margin: 0px 0px 0px 50px;
+  text-align: center;
+  text-transform: uppercase; }
 
 /******************************CONTACT******************************/
 /*******************************************************************/
@@ -226,6 +233,6 @@ html, body {
 
   #name {
     top: 0px;
-    left: 22%;
+    left: 8%;
     position: absolute;
     margin-bottom: 10px; } }

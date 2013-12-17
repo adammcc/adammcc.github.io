@@ -4,14 +4,14 @@ $primary-color: #6b6b6b;
 a {
 	outline: none;
 	text-decoration: none;
-	color: #4f4f4f;
+	color: $primary-color;
 }
 
 p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #444;
+	color: $primary-color;
 }
 
 #nav_bar {
@@ -132,8 +132,16 @@ p {
 #name {
 	width: 290px;
 	position: relative;
-	left: 48%;
+	top: 25px;
+	left: 35%;
 	margin-left: -150px;
+
+	font: bold 40px 'Open Sans Condensed', sans-serif;
+	color: $primary-color;
+	width: 300px;
+	margin: 0px 0px 0px 50px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 
@@ -222,6 +230,6 @@ html, body {
 	#instagram{float: none; left: 10%;}
 	#contact {margin-left: 120px; width: 300px; text-align: center;}
 	#sun {margin-left: -75px; width: 0px; opacity: 0;}
-	#name {top: 0px; left: 22%; position: absolute; margin-bottom: 10px}
+	#name {top: 0px; left: 8%; position: absolute; margin-bottom: 10px}
 }
 
