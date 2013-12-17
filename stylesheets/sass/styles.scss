@@ -1,4 +1,6 @@
+$primary-color: #6b6b6b;
 
+/************************************************************/
 a {
 	outline: none;
 	text-decoration: none;
@@ -14,7 +16,7 @@ p {
 
 #nav_bar {
 	position: relative;
-	color: #6b6b6b;
+	color: $primary-color;
 	margin: 30px auto;
 	width: 950px;
 	height: 100px;
@@ -33,7 +35,7 @@ p {
 	}
 	span a{
 		font: bold 40px 'Open Sans Condensed', sans-serif;
-		color: #6b6b6b;
+		color: $primary-color;
 		width: 300px;
 		margin: 0px 0px 0px 50px;
 		text-align: center;
@@ -76,7 +78,7 @@ p {
 .home-links {
 	font: bold 24px 'Open Sans Condensed', sans-serif;
 	font-size: 36px;
-	color: #6b6b6b;
+	color: $primary-color;
 	padding: 0px 0px 0px 0px;
 	text-align: center;
 	text-transform: uppercase;
@@ -141,9 +143,6 @@ p {
 }
 
 #info_left {
-	/*float: left;*/
-	/*left: 35%;*/
-	/*margin-right: 200px;*/
 	text-align: center;
 }
 
@@ -153,7 +152,7 @@ p {
 
 #github {
 	position: relative;
-	left: -20%;
+	left: -25%;
 	float: left;
 	height: 180px;
 	width: 180px;

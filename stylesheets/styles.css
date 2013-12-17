@@ -1,3 +1,4 @@
+/************************************************************/
 a {
   outline: none;
   text-decoration: none;
@@ -112,9 +113,6 @@ p {
   font-size: 30px; }
 
 #info_left {
-  /*float: left;*/
-  /*left: 35%;*/
-  /*margin-right: 200px;*/
   text-align: center; }
 
 #info_right {
@@ -122,7 +120,7 @@ p {
 
 #github {
   position: relative;
-  left: -20%;
+  left: -25%;
   float: left;
   height: 180px;
   width: 180px;
