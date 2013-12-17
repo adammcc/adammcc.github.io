@@ -40,7 +40,16 @@ p {
     margin-right: 30px;
     text-align: center; }
 
+.home-links {
+  font: bold 24px 'Open Sans Condensed', sans-serif;
+  font-size: 36px;
+  color: #6b6b6b;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  text-transform: uppercase; }
+
 .home-image-container {
+  position: relative;
   margin: 10px auto;
   width: 960px;
   height: 400px;
@@ -55,38 +64,36 @@ p {
   -o-transition: all 1s ease;
   transition: all 1s ease;
   /*-webkit-transition: all 1s ease;*/
-  /*-webkit-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
-  -moz-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
-  -ms-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
-  -o-filter: blur(0px) grayscale(.5) hue-rotate(190deg);
-  filter: blur(0px) grayscale(.5) hue-rotate(190deg);*/ }
-
-.home-links {
-  font: bold 24px 'Open Sans Condensed', sans-serif;
-  font-size: 36px;
-  color: #6b6b6b;
-  padding: 0px 0px 0px 0px;
-  text-align: center;
-  text-transform: uppercase; }
+  /*-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);*/ }
 
 .home-image img:hover {
   position: relative;
-  margin-top: -250px; }
+  margin-top: -250px;
+  	/*	-webkit-filter: blur(0px);
+  		-moz-filter: blur(0px);
+  		-ms-filter: blur(0px);
+  		-o-filter: blur(0px);
+  		filter: blur(0px);
+  */ }
 
 .home-wind img {
   padding: 0px;
   position: absolute;
   width: 150px;
-  top: 387px;
-  left: 60%;
+  top: 250px;
+  left: 63%;
   z-index: 99999; }
 .home-wind span {
   font: bold 24px 'Open Sans Condensed', sans-serif;
   padding: 0px;
   position: absolute;
   width: 175px;
-  top: 387px;
-  left: 72%;
+  top: 250px;
+  left: 80%;
   color: #fff;
   z-index: 99999; }
 
@@ -154,10 +161,6 @@ p {
   background: url("../images/instagram-256.png") no-repeat;
   background-size: 180px 180px; }
 
-.icons {
-  width: 720px;
-  margin: 40px auto; }
-
 html, body {
   background: #fff;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -169,14 +172,16 @@ html, body {
 
 /*******************************MEDIA*******************************/
 /*******************************************************************/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .home-wind span {
-    top: 250px;
-    left: 174px; }
+    top: 50px;
+    left: 26%;
+    width: 170px;
+    text-align: center; }
 
   .home-wind img {
-    top: 375px;
-    left: 150px; }
+    top: 200px;
+    left: 29%; }
 
   .home-links {
     padding-top: 45px;
@@ -191,7 +196,23 @@ html, body {
 
   .icons {
     margin-left: 130px;
-    width: 250px; }
+    width: 150px; }
+
+  #github {
+    float: none;
+    left: 10%; }
+
+  #linkedin {
+    float: none;
+    left: 10%; }
+
+  #twitter {
+    float: none;
+    left: 10%; }
+
+  #instagram {
+    float: none;
+    left: 10%; }
 
   #contact {
     margin-left: 120px;
@@ -205,6 +226,6 @@ html, body {
 
   #name {
     top: 0px;
-    left: -125px;
+    left: 22%;
     position: absolute;
     margin-bottom: 10px; } }
