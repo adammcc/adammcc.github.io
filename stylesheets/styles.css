@@ -232,7 +232,6 @@ html, body {
     opacity: 0; }
 
   #name {
-    top: 0px;
-    left: 8%;
+    left: 10%;
     position: absolute;
     margin-bottom: 10px; } }
