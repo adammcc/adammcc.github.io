@@ -1,3 +1,4 @@
+/* Run this for sass: sass --watch stylesheets/sass:stylesheets */
 /* Global reset
    http://meyerweb.com/eric/tools/css/reset/ 
 *****************************************************************/
@@ -184,11 +185,11 @@ a.next:hover {
 
 #rynoq-chart {
   position: absolute;
-  top: -27px; }
+  top: -85px; }
 
 #flosswords {
   position: absolute;
-  top: 1075px; }
+  top: 1030px; }
 
 #crowded-lands {
   position: absolute;
@@ -196,7 +197,7 @@ a.next:hover {
 
 #edpeople {
   position: absolute;
-  top: 3115px; }
+  top: 3075px; }
 
 /* foreground (ballons/landscape) */
 #parallax-bg3 {
@@ -221,12 +222,12 @@ a.next:hover {
 
 #bg3-3 {
   position: absolute;
-  top: 1310px;
+  top: 1343px;
   left: 355px; }
 
 #bg3-4 {
   position: absolute;
-  top: 1860px;
+  top: 1870px;
   left: 355px; }
 
 /* midground (images) */
