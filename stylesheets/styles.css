@@ -127,13 +127,15 @@
 	width: 700px;
 }
 .about-me-outer {
+	position: absolute;
 	background-color: #689aca;
 	height: 300px;
-	margin-top: -53px;
+	top: 0px;
 	width: 100%;
 }
 
 .contact {
+	position: absolute;
 	margin: 0px 0px 0px 22%;
 	padding: 30px;
 	width: 700px;
@@ -188,12 +190,19 @@
 }
 .section-two {
 	background-color: #464646;
+	margin: 0px;
 }
 
 .section-three {
 	background-color: #fff;
+	margin: 0px;
 }
 
+/*******************************MEDIA*******************************/
+/*******************************************************************/
+@media only screen and (max-width: 480px) {
+
+}
 
 
 
