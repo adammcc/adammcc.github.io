@@ -30,12 +30,22 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 50px;
 	height: 200px;
-	line-height: 200px;
 	margin: 3px;
 	position: relative;
 	text-align: center;
+	top: 10%;
 	vertical-align: center;
 	width: 406px;
+}
+.name-box p {
+	margin-top: 12px;
+	font-size: 20px;
+}
+
+.name {
+	position: absolute;
+	top: 25%;
+	left: 7%;
 }
 
 .home-box:hover {
