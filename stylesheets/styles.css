@@ -222,6 +222,24 @@
 /*******************************MEDIA*******************************/
 /*******************************************************************/
 
+@media only screen and (max-width: 480px) {
+
+	.nav-white {
+		font-size: 60px;
+	}
+
+	.home-link {
+		left: 60%;
+	}
+
+.portfolio-link {
+		left: 75%;
+	}
+
+.contact-link {
+		left: 93%;
+	}
+}
 
 
 
