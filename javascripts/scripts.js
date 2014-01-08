@@ -7,11 +7,20 @@ $(function() {
 		easing: 'swing'
 	});
 
-	$(".portfolio-link").on("click", function(){
+
+	var homeLink = $('.home-link');
+	var contactLink = $(".contact-link")
+	var portfolioLink = $(".portfolio-link");
+
+	homeLink.on('click', function() {
+		$.fn.fullpage.moveTo(1)
+	})
+
+	portfolioLink.on("click", function(){
 		$.fn.fullpage.moveTo(2);
 	});
 
-	$(".contact-link").on("click", function(){
+	contactLink.on("click", function(){
 		$.fn.fullpage.moveTo(3);
 	});
 

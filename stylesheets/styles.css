@@ -11,6 +11,25 @@
 	margin: 0 auto;
 }
 
+.nav-white {
+	color: #fff;
+	font-size: 30px;
+	position: fixed;
+	top: 4%;
+	z-index: 99;
+}
+
+.home-link {
+	left: 85%;
+}
+
+.portfolio-link {
+	left: 89%;
+}
+
+.contact-link {
+	left: 93%;
+}
 /*******************************Home***********************************/
 /**********************************************************************/
 .home-box {
