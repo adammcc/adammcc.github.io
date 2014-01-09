@@ -24,14 +24,17 @@
 }
 
 .home-link {
+	cursor: pointer;
 	left: 85%;
 }
 
 .portfolio-link {
+	cursor: pointer;
 	left: 89%;
 }
 
 .contact-link {
+	cursor: pointer;
 	left: 93%;
 }
 /*******************************Home***********************************/
@@ -147,7 +150,7 @@
 .about-me-inner {
 	position: relative;
 	top: 15%;
-	margin: 0px 0px 0px 25%;
+	margin: 0px 0px 0px 23%;
 	width: 700px;
 }
 
@@ -162,8 +165,8 @@
 .contact {
 	height: 55%;
 	position: absolute;
-	margin: 0px 0px 0px 25%;
-	width: 700px;
+	margin: 0px 0px 0px 23%;
+	width: 900px;
 }
 
 .contact-box {
@@ -171,9 +174,9 @@
 	float: left;
 	font-size: 18px;
 	height: 100px;
-	margin: 3px;
+	margin-right: 120px;
 	text-align: center;
-	width: 200px;
+	width: 150px;
 }
 
 .info {
