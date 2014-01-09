@@ -19,6 +19,10 @@
 	z-index: 99;
 }
 
+.nav-white:hover {
+	color: #e74c3c;
+}
+
 .home-link {
 	left: 85%;
 }
@@ -72,7 +76,7 @@
 }
 
 .home-border-box {
-	color: #464646;
+	color: #e74c3c;
 	float: left;
 	font-size: 30px;
 	height: 196px;
@@ -84,7 +88,7 @@
 
 .home-border-box.red-border:hover {
 	color: #fff;
-	background-color: #f0652f;
+	background-color: #e74c3c;
 	cursor: pointer;
 }
 
@@ -143,7 +147,7 @@
 .about-me-inner {
 	position: relative;
 	top: 15%;
-	margin: 0px 0px 0px 22%;
+	margin: 0px 0px 0px 25%;
 	width: 700px;
 }
 
@@ -158,7 +162,7 @@
 .contact {
 	height: 55%;
 	position: absolute;
-	margin: 0px 0px 0px 22%;
+	margin: 0px 0px 0px 25%;
 	width: 700px;
 }
 
