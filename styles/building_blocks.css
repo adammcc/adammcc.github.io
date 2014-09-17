@@ -1,0 +1,143 @@
+
+/****************************Building Blocks***************************/
+/**********************************************************************/
+.grey-border.build-about-me,
+.grey-border.build-contact,
+.grey-border.build-portfolio,
+.grey-border.build-resume,
+.grey-border.build-skills {
+  border: 2px solid #464646;
+  -ms-transform: scale(0.2); /* IE 9 */
+  -webkit-transform: scale(0.2); /* Chrome, Safari, Opera */
+  transform: scale(0.2);
+}
+
+/****************************Contact Build***************************/
+.home-border-box.grey-border.two.build-contact {
+  top: 395px;
+  left: 405px;
+}
+
+.home-border-box.grey-border.five.build-contact {
+  top: 395px;
+  left: 450px;
+}
+
+.home-border-box.grey-border.seven.build-contact {
+  top: 395px;
+  left: 495px;
+}
+
+.home-border-box.grey-border.eight.build-contact {
+  top: 350px;
+  left: 450px;
+}
+
+.home-border-box.grey-border.ten.build-contact {
+  top: 350px;
+  left: 405px;
+}
+
+/****************************About Me Build***************************/
+.home-border-box.grey-border.two.build-about-me {
+  top: 395px;
+  left: 0;
+}
+
+.home-border-box.grey-border.five.build-about-me {
+  top: 395px;
+  left: 45px;
+}
+
+.home-border-box.grey-border.seven.build-about-me {
+  top: 395px;
+  left: 90px;
+}
+
+.home-border-box.grey-border.eight.build-about-me {
+  top: 350px;
+  left: 45px;
+}
+
+.home-border-box.grey-border.ten.build-about-me {
+  top: 350px;
+  left: 90px;
+}
+
+/****************************Portfolio Build***************************/
+.home-border-box.grey-border.two.build-portfolio {
+  top: 395px;
+  left: 560px;
+}
+
+.home-border-box.grey-border.five.build-portfolio {
+  top: 395px;
+  left: 605px;
+}
+
+.home-border-box.grey-border.seven.build-portfolio {
+  top: 395px;
+  left: 515px;
+}
+
+.home-border-box.grey-border.eight.build-portfolio {
+  top: 395px;
+  left: 650px;
+}
+
+.home-border-box.grey-border.ten.build-portfolio {
+  top: 350px;
+  left: 650px;
+}
+
+/****************************Resume Build***************************/
+.home-border-box.grey-border.two.build-resume {
+  top: 395px;
+  left: 230px;
+}
+
+.home-border-box.grey-border.five.build-resume {
+  top: 395px;
+  left: 275px;
+}
+
+.home-border-box.grey-border.seven.build-resume {
+  top: 350px;
+  left: 230px;
+}
+
+.home-border-box.grey-border.eight.build-resume {
+  top: 395px;
+  left: 320px;
+}
+
+.home-border-box.grey-border.ten.build-resume {
+  top: 305px;
+  left: 230px;
+}
+
+/****************************Skills Build***************************/
+.home-border-box.grey-border.two.build-skills {
+  top: 395px;
+  left: 370px;
+}
+
+.home-border-box.grey-border.five.build-skills {
+  top: 395px;
+  left: 415px;
+}
+
+.home-border-box.grey-border.seven.build-skills {
+  top: 350px;
+  left: 370px;
+}
+
+.home-border-box.grey-border.eight.build-skills {
+  top: 395px;
+  left: 460px;
+}
+
+.home-border-box.grey-border.ten.build-skills {
+  top: 395px;
+  left: 325px;
+}

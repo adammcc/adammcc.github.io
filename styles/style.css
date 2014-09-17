@@ -1,0 +1,75 @@
+/*******************************Home***********************************/
+/**********************************************************************/
+
+* {
+	font-family: 'Source Sans Pro', sans-serif
+}
+
+a {
+	color: #76b852;
+  text-decoration: inherit; /* no underline */
+}
+
+a:visited {
+	color: #76b852;;
+}
+
+.link {
+	cursor: pointer;
+}
+
+/*******************************Color**********************************/
+/**********************************************************************/
+.green {
+	color: #76b852;
+	cursor: pointer;
+}
+
+
+.green-border {
+	border: 1px solid #76b852;
+}
+
+.light-blue {
+	background-color: #689aca;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.white-font {
+	color: #fff !important;
+}
+
+.grey-font {
+	color: #464646;
+}
+
+.grey-border {
+	border: 1px solid #464646;
+}
+
+.section-one {
+	background-color: #fff;
+}
+.section-two {
+	background-color: #464646;
+	margin: 0px;
+}
+
+.section-three {
+	background-color: #fff;
+	margin: 0px;
+}
+
+/*******************************ICONS**********************************/
+/**********************************************************************/
+.icon {
+	line-height: 20px;
+}
+
+.icon-center {
+	margin 0 auto;
+	line-height: 20px;
+}
